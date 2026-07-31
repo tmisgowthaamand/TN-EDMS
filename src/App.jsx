@@ -167,6 +167,7 @@ export default function App() {
             </div>
             <div className="logo-text">
               <span className="brand-title">TN EDMS</span>
+              <span className="brand-subtitle">Consulting</span>
             </div>
           </div>
 
@@ -655,7 +656,7 @@ export default function App() {
             <div className="legal-card">
               <div className="legal-section">
                 <h2>1. Overview & Statutory Authority</h2>
-                <p>The <strong>TN EDMS</strong> platform is operated in accordance with the Panchayats Act, Municipalities Act, and applicable Information Technology laws of India.</p>
+                <p>The <strong>TN EDMS Consulting</strong> platform is operated in accordance with the Panchayats Act, Municipalities Act, and applicable Information Technology laws of India.</p>
               </div>
 
               <div className="legal-section">
@@ -670,6 +671,24 @@ export default function App() {
               <div className="legal-section">
                 <h2>3. Data Protection & Security Controls</h2>
                 <p>TN EDMS implements state-of-the-art security measures including 256-bit SSL encryption for data in transit, AES-256 encryption at rest, and multi-factor administrative authentication.</p>
+              </div>
+
+              <div className="legal-section">
+                <h2>4. Contact TN EDMS Consulting</h2>
+                <address className="legal-contact">
+                  <p className="legal-contact-item">
+                    <svg className="contact-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <span>2/210, Karthikeyan Compound, R K Garden, Dhanalakshmi Nagar, Andipalayam, Tiruppur, India - 641687</span>
+                  </p>
+                  <p className="legal-contact-item">
+                    <svg className="contact-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+                    <a href="mailto:info@tnedms.online">info@tnedms.online</a>
+                  </p>
+                  <p className="legal-contact-item">
+                    <svg className="contact-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <a href="tel:9344231096">9344231096</a>
+                  </p>
+                </address>
               </div>
 
               <div className="legal-footer-nav">
@@ -702,12 +721,30 @@ export default function App() {
             <div className="legal-card">
               <div className="legal-section">
                 <h2>1. Acceptance of Terms</h2>
-                <p>By accessing or using the <strong>TN EDMS</strong> portal, you agree to comply with and be bound by these Terms of Service.</p>
+                <p>By accessing or using the <strong>TN EDMS Consulting</strong> portal, you agree to comply with and be bound by these Terms of Service.</p>
               </div>
 
               <div className="legal-section">
                 <h2>2. Authorized Use & Acceptable Conduct</h2>
                 <p>TN EDMS is an official public resource. Users agree to use the portal solely for legitimate voter lookups, candidate information verification, or civic grievance submissions.</p>
+              </div>
+
+              <div className="legal-section">
+                <h2>3. Contact TN EDMS Consulting</h2>
+                <address className="legal-contact">
+                  <p className="legal-contact-item">
+                    <svg className="contact-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <span>2/210, Karthikeyan Compound, R K Garden, Dhanalakshmi Nagar, Andipalayam, Tiruppur, India - 641687</span>
+                  </p>
+                  <p className="legal-contact-item">
+                    <svg className="contact-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+                    <a href="mailto:info@tnedms.online">info@tnedms.online</a>
+                  </p>
+                  <p className="legal-contact-item">
+                    <svg className="contact-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <a href="tel:9344231096">9344231096</a>
+                  </p>
+                </address>
               </div>
 
               <div className="legal-footer-nav">
@@ -727,8 +764,22 @@ export default function App() {
           <div className="footer-top-grid">
             <div className="footer-col brand-col">
               <div className="footer-brand">
-                <div className="footer-emblem">🏛️</div>
-                <span className="footer-brand-title">TN EDMS</span>
+                <div className="footer-emblem">
+                  <svg width="34" height="34" viewBox="0 0 40 40" fill="none">
+                    <circle cx="20" cy="20" r="18" fill="url(#footer-logo-grad)" stroke="#FFD700" strokeWidth="1.5"/>
+                    <path d="M12 21L17 26L28 14" stroke="#FFFFFF" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <defs>
+                      <linearGradient id="footer-logo-grad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                        <stop stopColor="#0F2C59"/>
+                        <stop offset="1" stopColor="#1E56A0"/>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+                <div className="footer-brand-textwrap">
+                  <span className="footer-brand-title">TN EDMS</span>
+                  <span className="footer-brand-sub">Consulting</span>
+                </div>
               </div>
               <p className="footer-text">
                 TN EDMS — Empowering civic democracy and transparent governance for Rural & Urban Local Body Elections.
@@ -761,12 +812,21 @@ export default function App() {
             </div>
 
             <div className="footer-col">
-              <h4 className="footer-heading">State Control Room</h4>
+              <h4 className="footer-heading">Contact Us</h4>
               <address className="footer-contact">
-                <p><strong>Election Control Room</strong></p>
-                <p>No. 208/2, Jawaharlal Nehru Road,</p>
-                <p>Arumbakkam, Chennai - 600 106</p>
-                <p>Email: <code>support@tnedms.tn.gov.in</code></p>
+                <p className="footer-org"><strong>TN EDMS Consulting</strong></p>
+                <p className="footer-contact-item">
+                  <svg className="contact-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span>2/210, Karthikeyan Compound, R K Garden, Dhanalakshmi Nagar, Andipalayam, Tiruppur, India - 641687</span>
+                </p>
+                <p className="footer-contact-item">
+                  <svg className="contact-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+                  <a href="mailto:info@tnedms.online">info@tnedms.online</a>
+                </p>
+                <p className="footer-contact-item">
+                  <svg className="contact-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  <a href="tel:9344231096">9344231096</a>
+                </p>
               </address>
             </div>
           </div>
